@@ -1,0 +1,60 @@
+.footer-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    height: auto;
+    overflow: hidden;
+    background-color: #313131;
+    margin-top: 3rem;
+    position: absolute;
+    bottom:-160%;
+
+
+    .footer-icons {
+            color: #ffffff;
+            font-size: 2em;
+            font-family: inherit;
+            font-weight: bold;
+            padding: 0.5em;
+            cursor: pointer;
+            transition: 0.2s;
+            display: block;
+    }
+
+    ul {
+        list-style-type: none;
+        padding: 1em;
+        
+        li {
+    
+          a {
+            color: #ffffff;
+            font-size: 1em;
+            font-family: inherit;
+            font-weight: bold;
+            padding: 0.5em;
+            cursor: pointer;
+            transition: 0.2s;
+            display: block;
+          }
+          
+          a:link {
+            text-decoration: none;
+          }
+          
+          a:visited {
+            text-decoration: none;
+          }
+          
+          a:hover {
+            text-decoration: underline;
+          }
+          
+          a:active {
+            text-decoration: underline;
+          }
+    
+        }
+      }
+  }
